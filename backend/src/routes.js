@@ -11,6 +11,7 @@ routes.post('/sessions', SessionController.create);
 //Ongs
 routes.get('/ongs', OngController.index);
 routes.post('/ongs', OngController.create);
+routes.delete('/ongs', OngController.delete);
 //Incidents
 routes.post('/incidents', IncidentController.create);
 routes.get('/incidents', IncidentController.index);
